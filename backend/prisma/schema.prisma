@@ -1,0 +1,27 @@
+//backend/prisma/schema.prisma
+//npx prisma migrate dev --name init
+//npx prisma generate
+//npx prisma migrate reset
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model KM_Post { // 안씀. 그냥 다른 프로젝트에서 이렇게 썼기 때문에 남겨둠(그 프로젝트에서 쓰지 않은 db임)
+  id        String   @id @default(cuid())
+  title     String
+}
+
+
+model User {
+  id        String      @id @default(cuid())
+  password  String
+  name      String?
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+}

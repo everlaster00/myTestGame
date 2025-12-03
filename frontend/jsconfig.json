@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@@/*": ["./src/components/*"],
+      "@~/*": ["./src/renderer/*"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.jsx",
+    "src/**/*.js", 
+    "src/**/*.tsx",
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}

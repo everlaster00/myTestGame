@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-ychoi: var(--font-ychoi);
+  --font-overwatch: var(--font-overwatch);
+  --font-BegalFat: var(--font-BegalFat);
+  --font-Dongle: var(--font-Dongle);
+}
+
+.text-outline {
+  @apply text-shadow-[1px_1px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000];
+}
+
+.SCROLLHIDDEN {
+  /* 웹킷 (Chrome, Safari, Edge) 계열 대응 */
+  &::-webkit-scrollbar {
+      display: none; /* 스크롤바 모양을 완전히 없애기 */
+      width: 0;
+      height: 0;
+  }
+
+  /* 파이어폭스(Firefox) 대응 */
+  /* scrollbar-width: none;  */
+
+  /* IE 및 구형 Edge 대응 */
+  -ms-overflow-style: none;
+
+  -webkit-overflow-scrolling: auto;
+  overscroll-behavior: auto;
+  scroll-behavior: smooth;    /* 스크롤 부드럽게 */
+  /* box-shadow: none !important; */
+}
+
+.smooth-edge-mask {
+  /* 캔버스 주변 10% 영역을 투명하게 페이드 아웃 */
+  mask-image: radial-gradient(
+      ellipse at center, 
+      black 80%,        /* 캔버스 중앙 80%는 불투명하게 보임 (black) */
+      transparent 100%  /* 바깥 20%는 투명하게 사라짐 (transparent) */
+  );
+  /* -webkit- 접두사도 같이 사용해야 호환성이 좋다 안 카나! */
+  -webkit-mask-image: radial-gradient(
+      ellipse at center, 
+      black 80%, 
+      transparent 100%
+  );
+}
