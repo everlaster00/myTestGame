@@ -1,0 +1,14 @@
+{ "columns":26,
+ "image":"..\/tileSheets\/main_tiles\/ocean_128x128.webp",
+ "imageheight":384,
+ "imagewidth":1664,
+ "margin":0,
+ "name":"ocean_128x128",
+ "spacing":0,
+ "tilecount":156,
+ "tiledversion":"1.11.2",
+ "tileheight":64,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.10"
+}

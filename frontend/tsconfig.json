@@ -25,6 +25,7 @@
     "paths": {
       "@@/*": [ "./src/components/*"],
       "@~/*": [ "./src/renderer/*"],
+      "@asset/*": [ "./public/assets/*"],
       "@/*": [ "./src/*" ],
       "root/*": [ "./*" ],
     },
@@ -34,7 +35,8 @@
     "next-env.d.ts",
     "src/**/*",
     ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts"
+    ".next/dev/types/**/*.ts",
+    "*.json"
   ],
   "exclude": [
     "node_modules",

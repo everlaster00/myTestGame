@@ -2,19 +2,21 @@
   "name": "codeisland",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "remap": "node ./etc/tiledRemaper.js"
   },
   "dependencies": {
-    "@pixi/react": "^8.0.4",
-    "next": "16.0.3",
+    "@pixi/react": "^8.0.5",
+    "next": "^16.0.7",
     "next-image-blur": "^1.0.2",
     "pixi.js": "^8.14.3",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

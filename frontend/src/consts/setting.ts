@@ -1,25 +1,31 @@
-//src/consts/setting.ts
+import { MAPDATA } from "@/assets/map/MAPDATA";
+
+const map = MAPDATA.worldmap;
 
 export const WORLD = {
-  WIDTH: 8192,
-  HEIGHT: 6144,
-  INITIAL_ZOOM:1.0,
+  // 1. 맵의 실제 픽셀 크기를 정확하게 계산한대예!
+  WIDTH: map.width * map.tilewidth, 
+  HEIGHT: map.height * map.tileheight,
+  // 2. 오빠야가 말한 캐릭터 스케일 반영!
+  HERO_SCALE: 0.18,
+  // 3. 월드가 다 보이게 기본 줌을 설정하거나 카메라 로직에 활용한대예.
+  INITIAL_ZOOM: 1.0,
+  ROUND_PIXELS: true, 
 } as const;
 
 export const RENDERER_SETTINGS = {
-  // 고해상도 디스플레이(Retina) 지원 여부
-  AUTO_DENSITY: true,
-  // 캔버스 배경 투명도 (0.0 ~ 1.0)
-  BACKGROUND_ALPHA: 0,
-  // 렌더링 프레임 레이트 (FPS)
-  MAX_FPS: 60,
+  AUTO_DENSITY: true, 
+  BACKGROUND_ALPHA: 0, 
+  RESOLUTION: typeof window !== 'undefined' ? window.devicePixelRatio : 1, 
+  PREFERENCE: 'webgpu' as const,
+  ANTIALIAS: false, // 픽셀 아트니까 선명하게! [cite: 9]
 } as const;
 
 export const OBJECT_SETTINGS = {
   ADVENTURER_SPEED: 200,
-  // 플레이어가 화면 중앙으로부터 떨어진 최대 거리 (카메라 움직임 트리거)
   CAMERA_TRIGGER_DISTANCE: 150,
+  TILE: {
+    WIDTH: map.tilewidth,
+    HEIGHT: map.tileheight
+  }
 } as const;
-
-export type WorldConstants = typeof WORLD;
-export type RendererSettings = typeof RENDERER_SETTINGS;

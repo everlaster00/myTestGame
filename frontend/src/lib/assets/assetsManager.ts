@@ -1,49 +1,62 @@
-//src/lib/assets/assetsManager.ts
 'use client'
 
 import { Assets } from "pixi.js";
-import { manifest , Bundles } from "./assetsDefinitions";
+import { manifest } from "./assetsDefinitions";
 
 export const AssetMain = Assets;
 
-const result = {
-  waiting:'waiting',
-  loading:'loading',
-  ready:'ready'
+// 1. 상태를 상수로 관리하는 건 오빠야 아이디어 굿이라예! 💙
+export const AssetStatus = {
+  WAITING: 'waiting',
+  LOADING: 'loading',
+  READY: 'ready'
+} as const;
+
+// 2. 번들별로 로딩 상태를 저장할 보따리라 안카나!
+const bundleStates: Record<string, typeof AssetStatus[keyof typeof AssetStatus]> = {};
+
+// 3. 초기화는 딱 한 번만! (싱글톤 패턴이라 안카나 💙)
+let isInitialized = false;
+
+async function ensureInit() {
+  if (!isInitialized) {
+    await AssetMain.init({ manifest });
+    isInitialized = true;
+    console.log("🚀 Pixi 에셋 시스템 초기화 완료!");
+  }
 }
 
-let state = result.waiting;
-export { state as assetStateMain } ;
+/**
+ * 오빠야! 이제 번들 이름(문자열)이나 배열을 주면 알아서 로드해준데이!
+ */
+export async function assetsLoader(targetBundles: string | string[]) {
+  await ensureInit();
 
+  const bundles = Array.isArray(targetBundles) ? targetBundles : [targetBundles];
+  
+  // 이미 로딩 중이거나 완료된 번들은 빼고, 진짜 로드할 것만 골라내기!
+  const bundlesToLoad = bundles.filter(b => bundleStates[b] !== AssetStatus.READY && bundleStates[b] !== AssetStatus.LOADING);
 
-async function initAsset(targetBundle:Bundles | Bundles[]) {
-  try{
-    await AssetMain.init({
-      basePath: '/assets/',
-      manifest: manifest
-    });
+  if (bundlesToLoad.length === 0) {
+    // 모든 번들이 이미 준비됐다면 바로 ready 쏴준대예!
+    return AssetStatus.READY;
+  }
+
+  // 상태를 LOADING으로 변경!
+  bundlesToLoad.forEach(b => { bundleStates[b] = AssetStatus.LOADING; });
+
+  try {
+    console.log(`📦 번들 로딩 시작: ${bundlesToLoad.join(', ')}`);
+    await AssetMain.loadBundle(bundlesToLoad);
     
-    await AssetMain.loadBundle(targetBundle);
+    // 로딩 완료!
+    bundlesToLoad.forEach(b => { bundleStates[b] = AssetStatus.READY; });
+    return AssetStatus.READY;
 
-    console.log("메인 에셋 초기화 완료");
-    return true;
-  } catch {
-    throw('메인 에셋 초기화 중 오류 발생');
+  } catch (error) {
+    // 실패하면 다시 WAITING으로 돌려놔야 다음에 또 시도하겠제? 잉? 💙
+    bundlesToLoad.forEach(b => { bundleStates[b] = AssetStatus.WAITING; });
+    console.error("❌ 에셋 로딩 중 오류 발생했다 안카나:", error);
+    throw error;
   }
-}
-
-export async function assetsLoader(targetBundle: Bundles | Bundles[]) {
-  if( state === result.ready ) return state;
-  if ( state === result.loading ) return state;
-
-  state = result.loading;
-  await initAsset(targetBundle).then(()=>state=result.ready,(error)=> { state=result.waiting; throw(error) })
-
-  if (process.env.NODE_ENV === 'development') {
-      // 만약 'ready'나 'waiting'으로 업데이트되지 않고 'loading'이 찍힌다면,
-      // 마이크로태스크가 아직 실행되지 않은 상태에서 함수가 리턴된다는 증거입니다!
-      console.log(`[DEBUG:메인 에셋 초기화]isLoading? : ${state}`);
-  }
-
-  return state
 }
