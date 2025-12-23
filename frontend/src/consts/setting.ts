@@ -1,3 +1,4 @@
+//src/consts/setting.ts
 import { MAPDATA } from "@/assets/map/MAPDATA";
 
 const map = MAPDATA.worldmap;
@@ -27,5 +28,24 @@ export const OBJECT_SETTINGS = {
   TILE: {
     WIDTH: map.tilewidth,
     HEIGHT: map.tileheight
+  }
+} as const;
+
+export const TERRAIN_SETTINGS = {
+  // 지형별 이동 속도 계수 (오빠야 마음대로 조절 가능!)
+  SPEED_MULTIPLIER: {
+    dirtRoad: 1.1,    // 길 위에서는 억수로 빠르대예!
+    stonePath: 1.2,
+    sand: 0.9,        // 모래사장은 발이 푹푹 빠지니까 느리게~
+    greenery: 0.7,
+    lake: 0.6,
+    grass: 1.0,       // 기본 풀밭은 표준 속도디.
+    default: 1.0,
+  } as Record<string, number>,
+
+  // 특별한 처리가 필요한 zoneType들
+  TYPES: {
+    IMPASSABLE: ['cliff', 'water' , 'block' , 'buoy', 'deepWater', 'wall'], // 아예 못 지나가는 지형 타입
+    SLOW: ['swamp', 'breakWater','sand','lake','greenery'],                   // 느려지는 지형 타입
   }
 } as const;

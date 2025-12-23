@@ -10,6 +10,40 @@
  "tileheight":174,
  "tiles":[
         {
+         "id":0,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":0,
+                     "id":1,
+                     "name":"",
+                     "point":true,
+                     "rotation":0,
+                     "type":"pivot",
+                     "visible":true,
+                     "width":0,
+                     "x":70.6667,
+                     "y":139.333
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"isFire",
+                 "type":"bool",
+                 "value":false
+                }],
+         "type":"bonfire"
+        }, 
+        {
          "animation":[
                 {
                  "duration":150,
@@ -51,7 +85,90 @@
                  "duration":150,
                  "tileid":9
                 }],
-         "id":1
+         "id":1,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":0,
+                     "id":1,
+                     "name":"",
+                     "point":true,
+                     "rotation":0,
+                     "type":"pivot",
+                     "visible":true,
+                     "width":0,
+                     "x":71.3333,
+                     "y":137.333
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"isFire",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"bonfire"
+        }, 
+        {
+         "id":2,
+         "type":"bonfire"
+        }, 
+        {
+         "id":3,
+         "type":"bonfire"
+        }, 
+        {
+         "id":4,
+         "type":"bonfire"
+        }, 
+        {
+         "id":5,
+         "type":"bonfire"
+        }, 
+        {
+         "id":6,
+         "type":"bonfire"
+        }, 
+        {
+         "id":7,
+         "type":"bonfire"
+        }, 
+        {
+         "id":8,
+         "type":"bonfire"
+        }, 
+        {
+         "id":9,
+         "type":"bonfire"
+        }, 
+        {
+         "id":10,
+         "type":"bonfire"
+        }, 
+        {
+         "id":11,
+         "type":"bonfire"
+        }, 
+        {
+         "id":12,
+         "type":"bonfire"
+        }, 
+        {
+         "id":13,
+         "type":"bonfire"
+        }, 
+        {
+         "id":14,
+         "type":"bonfire"
         }],
  "tilewidth":142,
  "type":"tileset",

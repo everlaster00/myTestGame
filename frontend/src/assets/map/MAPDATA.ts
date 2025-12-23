@@ -21,18 +21,6 @@ export const MAPDATA = {
             "width": 0,
             "x": 3200,
             "y": 3120
-          },
-          {
-            "height": 0,
-            "id": 113,
-            "name": "",
-            "point": true,
-            "rotation": 0,
-            "type": "",
-            "visible": true,
-            "width": 0,
-            "x": 3680,
-            "y": 4384
           }
         ],
         "opacity": 1,
@@ -31143,15 +31131,15 @@ export const MAPDATA = {
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 121,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3648,
-            "y": 4384
+            "width": 184,
+            "x": 3680,
+            "y": 4336
           },
           {
             "gid": 170,
@@ -32151,75 +32139,75 @@ export const MAPDATA = {
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 205,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3088,
-            "y": 4592
+            "width": 184,
+            "x": 3152,
+            "y": 4528
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 206,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3088,
-            "y": 4816
+            "width": 184,
+            "x": 3152,
+            "y": 4672
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 207,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3376,
-            "y": 4832
+            "width": 184,
+            "x": 3424,
+            "y": 4688
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 208,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3376,
-            "y": 4560
+            "width": 184,
+            "x": 3424,
+            "y": 4528
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 209,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3648,
-            "y": 4592
+            "width": 184,
+            "x": 3680,
+            "y": 4512
           },
           {
             "gid": 170,
-            "height": 193,
+            "height": 100,
             "id": 210,
             "name": "",
             "rotation": 0,
             "type": "",
             "visible": true,
-            "width": 291,
-            "x": 3664,
-            "y": 4832
+            "width": 184,
+            "x": 3680,
+            "y": 4672
           },
           {
             "gid": 170,
@@ -32839,6 +32827,41 @@ export const MAPDATA = {
         "tiles": [
           {
             "id": 0,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 0,
             "y": 0,
             "width": 64,
@@ -32846,6 +32869,30 @@ export const MAPDATA = {
           },
           {
             "id": 1,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 64,
             "y": 0,
             "width": 64,
@@ -32853,6 +32900,30 @@ export const MAPDATA = {
           },
           {
             "id": 2,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 128,
             "y": 0,
             "width": 64,
@@ -32860,6 +32931,30 @@ export const MAPDATA = {
           },
           {
             "id": 3,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 192,
             "y": 0,
             "width": 64,
@@ -32867,6 +32962,30 @@ export const MAPDATA = {
           },
           {
             "id": 4,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 3,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 256,
             "y": 0,
             "width": 64,
@@ -32874,6 +32993,41 @@ export const MAPDATA = {
           },
           {
             "id": 5,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 48,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 16
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 0,
             "width": 64,
@@ -32881,6 +33035,30 @@ export const MAPDATA = {
           },
           {
             "id": 6,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 0,
             "y": 64,
             "width": 64,
@@ -32888,6 +33066,7 @@ export const MAPDATA = {
           },
           {
             "id": 7,
+            "type": "grass",
             "x": 64,
             "y": 64,
             "width": 64,
@@ -32895,6 +33074,7 @@ export const MAPDATA = {
           },
           {
             "id": 8,
+            "type": "grass",
             "x": 128,
             "y": 64,
             "width": 64,
@@ -32902,6 +33082,7 @@ export const MAPDATA = {
           },
           {
             "id": 9,
+            "type": "grass",
             "x": 192,
             "y": 64,
             "width": 64,
@@ -32909,6 +33090,7 @@ export const MAPDATA = {
           },
           {
             "id": 10,
+            "type": "grass",
             "x": 256,
             "y": 64,
             "width": 64,
@@ -32916,6 +33098,30 @@ export const MAPDATA = {
           },
           {
             "id": 11,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 64,
             "width": 64,
@@ -32923,6 +33129,30 @@ export const MAPDATA = {
           },
           {
             "id": 12,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 0,
             "y": 128,
             "width": 64,
@@ -32930,6 +33160,7 @@ export const MAPDATA = {
           },
           {
             "id": 13,
+            "type": "grass",
             "x": 64,
             "y": 128,
             "width": 64,
@@ -32937,6 +33168,7 @@ export const MAPDATA = {
           },
           {
             "id": 14,
+            "type": "grass",
             "x": 128,
             "y": 128,
             "width": 64,
@@ -32944,6 +33176,7 @@ export const MAPDATA = {
           },
           {
             "id": 15,
+            "type": "grass",
             "x": 192,
             "y": 128,
             "width": 64,
@@ -32951,6 +33184,7 @@ export const MAPDATA = {
           },
           {
             "id": 16,
+            "type": "grass",
             "x": 256,
             "y": 128,
             "width": 64,
@@ -32958,6 +33192,30 @@ export const MAPDATA = {
           },
           {
             "id": 17,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 128,
             "width": 64,
@@ -32965,6 +33223,30 @@ export const MAPDATA = {
           },
           {
             "id": 18,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 0,
             "y": 192,
             "width": 64,
@@ -32972,6 +33254,7 @@ export const MAPDATA = {
           },
           {
             "id": 19,
+            "type": "grass",
             "x": 64,
             "y": 192,
             "width": 64,
@@ -32979,6 +33262,7 @@ export const MAPDATA = {
           },
           {
             "id": 20,
+            "type": "grass",
             "x": 128,
             "y": 192,
             "width": 64,
@@ -32986,6 +33270,7 @@ export const MAPDATA = {
           },
           {
             "id": 21,
+            "type": "grass",
             "x": 192,
             "y": 192,
             "width": 64,
@@ -32993,6 +33278,7 @@ export const MAPDATA = {
           },
           {
             "id": 22,
+            "type": "grass",
             "x": 256,
             "y": 192,
             "width": 64,
@@ -33000,6 +33286,30 @@ export const MAPDATA = {
           },
           {
             "id": 23,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 192,
             "width": 64,
@@ -33007,6 +33317,30 @@ export const MAPDATA = {
           },
           {
             "id": 24,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 0,
             "y": 256,
             "width": 64,
@@ -33014,6 +33348,7 @@ export const MAPDATA = {
           },
           {
             "id": 25,
+            "type": "grass",
             "x": 64,
             "y": 256,
             "width": 64,
@@ -33021,6 +33356,7 @@ export const MAPDATA = {
           },
           {
             "id": 26,
+            "type": "grass",
             "x": 128,
             "y": 256,
             "width": 64,
@@ -33028,6 +33364,7 @@ export const MAPDATA = {
           },
           {
             "id": 27,
+            "type": "grass",
             "x": 192,
             "y": 256,
             "width": 64,
@@ -33035,6 +33372,7 @@ export const MAPDATA = {
           },
           {
             "id": 28,
+            "type": "grass",
             "x": 256,
             "y": 256,
             "width": 64,
@@ -33042,6 +33380,30 @@ export const MAPDATA = {
           },
           {
             "id": 29,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 256,
             "width": 64,
@@ -33049,6 +33411,41 @@ export const MAPDATA = {
           },
           {
             "id": 30,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 48
+                },
+                {
+                  "height": 48,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 0,
             "y": 320,
             "width": 64,
@@ -33056,6 +33453,30 @@ export const MAPDATA = {
           },
           {
             "id": 31,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 64,
             "y": 320,
             "width": 64,
@@ -33063,6 +33484,31 @@ export const MAPDATA = {
           },
           {
             "id": 32,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "grass",
             "x": 128,
             "y": 320,
             "width": 64,
@@ -33070,6 +33516,31 @@ export const MAPDATA = {
           },
           {
             "id": 33,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "grass",
             "x": 192,
             "y": 320,
             "width": 64,
@@ -33077,6 +33548,30 @@ export const MAPDATA = {
           },
           {
             "id": 34,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 256,
             "y": 320,
             "width": 64,
@@ -33084,6 +33579,41 @@ export const MAPDATA = {
           },
           {
             "id": 35,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 48,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 320,
             "width": 64,
@@ -33091,6 +33621,7 @@ export const MAPDATA = {
           },
           {
             "id": 36,
+            "type": "cliff",
             "x": 0,
             "y": 384,
             "width": 64,
@@ -33098,6 +33629,7 @@ export const MAPDATA = {
           },
           {
             "id": 37,
+            "type": "cliff",
             "x": 64,
             "y": 384,
             "width": 64,
@@ -33105,6 +33637,31 @@ export const MAPDATA = {
           },
           {
             "id": 38,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "stairs",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "cliff",
             "x": 128,
             "y": 384,
             "width": 64,
@@ -33112,6 +33669,31 @@ export const MAPDATA = {
           },
           {
             "id": 39,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "stairs",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "cliff",
             "x": 192,
             "y": 384,
             "width": 64,
@@ -33119,6 +33701,7 @@ export const MAPDATA = {
           },
           {
             "id": 40,
+            "type": "cliff",
             "x": 256,
             "y": 384,
             "width": 64,
@@ -33126,6 +33709,7 @@ export const MAPDATA = {
           },
           {
             "id": 41,
+            "type": "cliff",
             "x": 320,
             "y": 384,
             "width": 64,
@@ -33133,6 +33717,7 @@ export const MAPDATA = {
           },
           {
             "id": 42,
+            "type": "cliff",
             "x": 0,
             "y": 448,
             "width": 64,
@@ -33140,6 +33725,7 @@ export const MAPDATA = {
           },
           {
             "id": 43,
+            "type": "cliff",
             "x": 64,
             "y": 448,
             "width": 64,
@@ -33147,6 +33733,31 @@ export const MAPDATA = {
           },
           {
             "id": 44,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "stairs",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "cliff",
             "x": 128,
             "y": 448,
             "width": 64,
@@ -33154,6 +33765,31 @@ export const MAPDATA = {
           },
           {
             "id": 45,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "stairs",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "cliff",
             "x": 192,
             "y": 448,
             "width": 64,
@@ -33161,6 +33797,7 @@ export const MAPDATA = {
           },
           {
             "id": 46,
+            "type": "cliff",
             "x": 256,
             "y": 448,
             "width": 64,
@@ -33168,6 +33805,7 @@ export const MAPDATA = {
           },
           {
             "id": 47,
+            "type": "cliff",
             "x": 320,
             "y": 448,
             "width": 64,
@@ -33175,6 +33813,42 @@ export const MAPDATA = {
           },
           {
             "id": 48,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 3,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 48,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 0,
             "y": 512,
             "width": 64,
@@ -33182,6 +33856,42 @@ export const MAPDATA = {
           },
           {
             "id": 49,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 16
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 64,
             "y": 512,
             "width": 64,
@@ -33189,6 +33899,8 @@ export const MAPDATA = {
           },
           {
             "id": 50,
+            "probability": 0,
+            "type": "grass",
             "x": 128,
             "y": 512,
             "width": 64,
@@ -33196,6 +33908,7 @@ export const MAPDATA = {
           },
           {
             "id": 51,
+            "type": "grass",
             "x": 192,
             "y": 512,
             "width": 64,
@@ -33203,6 +33916,7 @@ export const MAPDATA = {
           },
           {
             "id": 52,
+            "type": "grass",
             "x": 256,
             "y": 512,
             "width": 64,
@@ -33210,6 +33924,7 @@ export const MAPDATA = {
           },
           {
             "id": 53,
+            "type": "grass",
             "x": 320,
             "y": 512,
             "width": 64,
@@ -33217,6 +33932,42 @@ export const MAPDATA = {
           },
           {
             "id": 54,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 48
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 0,
             "y": 576,
             "width": 64,
@@ -33224,6 +33975,53 @@ export const MAPDATA = {
           },
           {
             "id": 55,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 16
+                },
+                {
+                  "height": 16,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 64,
             "y": 576,
             "width": 64,
@@ -33231,6 +34029,31 @@ export const MAPDATA = {
           },
           {
             "id": 56,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "grass",
             "x": 128,
             "y": 576,
             "width": 64,
@@ -33238,6 +34061,7 @@ export const MAPDATA = {
           },
           {
             "id": 57,
+            "type": "grass",
             "x": 192,
             "y": 576,
             "width": 64,
@@ -33245,6 +34069,30 @@ export const MAPDATA = {
           },
           {
             "id": 58,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 256,
             "y": 576,
             "width": 64,
@@ -33252,6 +34100,30 @@ export const MAPDATA = {
           },
           {
             "id": 59,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 576,
             "width": 64,
@@ -33259,6 +34131,7 @@ export const MAPDATA = {
           },
           {
             "id": 60,
+            "type": "grass",
             "x": 0,
             "y": 640,
             "width": 64,
@@ -33266,6 +34139,8 @@ export const MAPDATA = {
           },
           {
             "id": 61,
+            "probability": 0,
+            "type": "grass",
             "x": 64,
             "y": 640,
             "width": 64,
@@ -33273,6 +34148,42 @@ export const MAPDATA = {
           },
           {
             "id": 62,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 16
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 128,
             "y": 640,
             "width": 64,
@@ -33280,6 +34191,42 @@ export const MAPDATA = {
           },
           {
             "id": 63,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 192,
             "y": 640,
             "width": 64,
@@ -33287,6 +34234,7 @@ export const MAPDATA = {
           },
           {
             "id": 64,
+            "type": "cliff",
             "x": 256,
             "y": 640,
             "width": 64,
@@ -33294,6 +34242,7 @@ export const MAPDATA = {
           },
           {
             "id": 65,
+            "type": "cliff",
             "x": 320,
             "y": 640,
             "width": 64,
@@ -33301,6 +34250,7 @@ export const MAPDATA = {
           },
           {
             "id": 66,
+            "type": "grass",
             "x": 0,
             "y": 704,
             "width": 64,
@@ -33308,6 +34258,31 @@ export const MAPDATA = {
           },
           {
             "id": 67,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "grass",
             "x": 64,
             "y": 704,
             "width": 64,
@@ -33315,6 +34290,53 @@ export const MAPDATA = {
           },
           {
             "id": 68,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 48,
+                  "x": 0,
+                  "y": 16
+                },
+                {
+                  "height": 32,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 128,
             "y": 704,
             "width": 64,
@@ -33322,6 +34344,42 @@ export const MAPDATA = {
           },
           {
             "id": 69,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 48,
+                  "x": 0,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "probability": 0,
+            "type": "stairs",
             "x": 192,
             "y": 704,
             "width": 64,
@@ -33329,6 +34387,7 @@ export const MAPDATA = {
           },
           {
             "id": 70,
+            "type": "cliff",
             "x": 256,
             "y": 704,
             "width": 64,
@@ -33336,6 +34395,7 @@ export const MAPDATA = {
           },
           {
             "id": 71,
+            "type": "cliff",
             "x": 320,
             "y": 704,
             "width": 64,
@@ -33343,6 +34403,7 @@ export const MAPDATA = {
           },
           {
             "id": 72,
+            "type": "swamp",
             "x": 0,
             "y": 768,
             "width": 64,
@@ -33350,6 +34411,7 @@ export const MAPDATA = {
           },
           {
             "id": 73,
+            "type": "swamp",
             "x": 64,
             "y": 768,
             "width": 64,
@@ -33357,6 +34419,41 @@ export const MAPDATA = {
           },
           {
             "id": 74,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 128,
             "y": 768,
             "width": 64,
@@ -33364,6 +34461,41 @@ export const MAPDATA = {
           },
           {
             "id": 75,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 48,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 16
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 192,
             "y": 768,
             "width": 64,
@@ -33371,6 +34503,30 @@ export const MAPDATA = {
           },
           {
             "id": 76,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 256,
             "y": 768,
             "width": 64,
@@ -33378,6 +34534,30 @@ export const MAPDATA = {
           },
           {
             "id": 77,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 768,
             "width": 64,
@@ -33385,6 +34565,7 @@ export const MAPDATA = {
           },
           {
             "id": 78,
+            "type": "swamp",
             "x": 0,
             "y": 832,
             "width": 64,
@@ -33392,6 +34573,7 @@ export const MAPDATA = {
           },
           {
             "id": 79,
+            "type": "swamp",
             "x": 64,
             "y": 832,
             "width": 64,
@@ -33399,6 +34581,30 @@ export const MAPDATA = {
           },
           {
             "id": 80,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 128,
             "y": 832,
             "width": 64,
@@ -33406,6 +34612,30 @@ export const MAPDATA = {
           },
           {
             "id": 81,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 3,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 192,
             "y": 832,
             "width": 64,
@@ -33413,6 +34643,41 @@ export const MAPDATA = {
           },
           {
             "id": 82,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 256,
             "y": 832,
             "width": 64,
@@ -33420,6 +34685,41 @@ export const MAPDATA = {
           },
           {
             "id": 83,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 16,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 48
+                },
+                {
+                  "height": 48,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "cliff",
+                  "visible": true,
+                  "width": 16,
+                  "x": 48,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "grass",
             "x": 320,
             "y": 832,
             "width": 64,
@@ -33442,6 +34742,274 @@ export const MAPDATA = {
         "tilecount": 30,
         "tiledversion": "1.11.2",
         "tileheight": 64,
+        "tiles": [
+          {
+            "id": 0,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "properties": [
+                    {
+                      "name": "speedMultiplier",
+                      "type": "float",
+                      "value": 1.2
+                    }
+                  ],
+                  "rotation": 0,
+                  "type": "",
+                  "visible": true,
+                  "width": 48,
+                  "x": 16,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "dirtRoad",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 1,
+            "type": "dirtRoad",
+            "x": 64,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 2,
+            "type": "dirtRoad",
+            "x": 128,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 3,
+            "type": "dirtRoad",
+            "x": 192,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 4,
+            "type": "dirtRoad",
+            "x": 256,
+            "y": 0,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 5,
+            "type": "dirtRoad",
+            "x": 0,
+            "y": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 6,
+            "type": "dirtRoad",
+            "x": 64,
+            "y": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 7,
+            "type": "dirtRoad",
+            "x": 128,
+            "y": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 8,
+            "type": "dirtRoad",
+            "x": 192,
+            "y": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 9,
+            "type": "dirtRoad",
+            "x": 256,
+            "y": 64,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 10,
+            "type": "dirtRoad",
+            "x": 0,
+            "y": 128,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 11,
+            "type": "dirtRoad",
+            "x": 64,
+            "y": 128,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 12,
+            "type": "dirtRoad",
+            "x": 128,
+            "y": 128,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 15,
+            "type": "stonePath",
+            "x": 0,
+            "y": 192,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 16,
+            "type": "stonePath",
+            "x": 64,
+            "y": 192,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 17,
+            "type": "stonePath",
+            "x": 128,
+            "y": 192,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 20,
+            "type": "stonePath",
+            "x": 0,
+            "y": 256,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 21,
+            "type": "stonePath",
+            "x": 64,
+            "y": 256,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 22,
+            "type": "stonePath",
+            "x": 128,
+            "y": 256,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 23,
+            "type": "stonePath",
+            "x": 192,
+            "y": 256,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 24,
+            "type": "stonePath",
+            "x": 256,
+            "y": 256,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 25,
+            "type": "stonePath",
+            "x": 0,
+            "y": 320,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 26,
+            "type": "stonePath",
+            "x": 64,
+            "y": 320,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 27,
+            "type": "stonePath",
+            "x": 128,
+            "y": 320,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 28,
+            "type": "stonePath",
+            "x": 192,
+            "y": 320,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 29,
+            "type": "stonePath",
+            "x": 256,
+            "y": 320,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 13,
+            "x": 192,
+            "y": 128,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 14,
+            "x": 256,
+            "y": 128,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 18,
+            "x": 192,
+            "y": 192,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "id": 19,
+            "x": 256,
+            "y": 192,
+            "width": 64,
+            "height": 64
+          }
+        ],
         "tilewidth": 64,
         "type": "tileset",
         "version": "1.10",
@@ -33814,218 +35382,6 @@ export const MAPDATA = {
               }
             ]
           }
-        ],
-        "tiles": [
-          {
-            "id": 0,
-            "x": 0,
-            "y": 0,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 1,
-            "x": 64,
-            "y": 0,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 2,
-            "x": 128,
-            "y": 0,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 3,
-            "x": 192,
-            "y": 0,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 4,
-            "x": 256,
-            "y": 0,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 5,
-            "x": 0,
-            "y": 64,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 6,
-            "x": 64,
-            "y": 64,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 7,
-            "x": 128,
-            "y": 64,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 8,
-            "x": 192,
-            "y": 64,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 9,
-            "x": 256,
-            "y": 64,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 10,
-            "x": 0,
-            "y": 128,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 11,
-            "x": 64,
-            "y": 128,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 12,
-            "x": 128,
-            "y": 128,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 13,
-            "x": 192,
-            "y": 128,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 14,
-            "x": 256,
-            "y": 128,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 15,
-            "x": 0,
-            "y": 192,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 16,
-            "x": 64,
-            "y": 192,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 17,
-            "x": 128,
-            "y": 192,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 18,
-            "x": 192,
-            "y": 192,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 19,
-            "x": 256,
-            "y": 192,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 20,
-            "x": 0,
-            "y": 256,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 21,
-            "x": 64,
-            "y": 256,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 22,
-            "x": 128,
-            "y": 256,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 23,
-            "x": 192,
-            "y": 256,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 24,
-            "x": 256,
-            "y": 256,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 25,
-            "x": 0,
-            "y": 320,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 26,
-            "x": 64,
-            "y": 320,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 27,
-            "x": 128,
-            "y": 320,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 28,
-            "x": 192,
-            "y": 320,
-            "width": 64,
-            "height": 64
-          },
-          {
-            "id": 29,
-            "x": 256,
-            "y": 320,
-            "width": 64,
-            "height": 64
-          }
         ]
       },
       {
@@ -34043,13 +35399,119 @@ export const MAPDATA = {
         "tiles": [
           {
             "id": 0,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 70.6667,
+                  "y": 139.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "properties": [
+              {
+                "name": "isFire",
+                "type": "bool",
+                "value": false
+              }
+            ],
+            "type": "bonfire",
             "x": 0,
             "y": 0,
             "width": 142,
             "height": 174
           },
           {
+            "animation": [
+              {
+                "duration": 150,
+                "tileid": 2
+              },
+              {
+                "duration": 150,
+                "tileid": 7
+              },
+              {
+                "duration": 150,
+                "tileid": 1
+              },
+              {
+                "duration": 150,
+                "tileid": 3
+              },
+              {
+                "duration": 150,
+                "tileid": 10
+              },
+              {
+                "duration": 150,
+                "tileid": 4
+              },
+              {
+                "duration": 150,
+                "tileid": 8
+              },
+              {
+                "duration": 150,
+                "tileid": 11
+              },
+              {
+                "duration": 150,
+                "tileid": 14
+              },
+              {
+                "duration": 150,
+                "tileid": 9
+              }
+            ],
             "id": 1,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 71.3333,
+                  "y": 137.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "properties": [
+              {
+                "name": "isFire",
+                "type": "bool",
+                "value": true
+              }
+            ],
+            "type": "bonfire",
             "x": 142,
             "y": 0,
             "width": 142,
@@ -34057,6 +35519,7 @@ export const MAPDATA = {
           },
           {
             "id": 2,
+            "type": "bonfire",
             "x": 284,
             "y": 0,
             "width": 142,
@@ -34064,6 +35527,7 @@ export const MAPDATA = {
           },
           {
             "id": 3,
+            "type": "bonfire",
             "x": 426,
             "y": 0,
             "width": 142,
@@ -34071,6 +35535,7 @@ export const MAPDATA = {
           },
           {
             "id": 4,
+            "type": "bonfire",
             "x": 568,
             "y": 0,
             "width": 142,
@@ -34078,6 +35543,7 @@ export const MAPDATA = {
           },
           {
             "id": 5,
+            "type": "bonfire",
             "x": 710,
             "y": 0,
             "width": 142,
@@ -34085,6 +35551,7 @@ export const MAPDATA = {
           },
           {
             "id": 6,
+            "type": "bonfire",
             "x": 852,
             "y": 0,
             "width": 142,
@@ -34092,6 +35559,7 @@ export const MAPDATA = {
           },
           {
             "id": 7,
+            "type": "bonfire",
             "x": 0,
             "y": 174,
             "width": 142,
@@ -34099,6 +35567,7 @@ export const MAPDATA = {
           },
           {
             "id": 8,
+            "type": "bonfire",
             "x": 142,
             "y": 174,
             "width": 142,
@@ -34106,6 +35575,7 @@ export const MAPDATA = {
           },
           {
             "id": 9,
+            "type": "bonfire",
             "x": 284,
             "y": 174,
             "width": 142,
@@ -34113,6 +35583,7 @@ export const MAPDATA = {
           },
           {
             "id": 10,
+            "type": "bonfire",
             "x": 426,
             "y": 174,
             "width": 142,
@@ -34120,6 +35591,7 @@ export const MAPDATA = {
           },
           {
             "id": 11,
+            "type": "bonfire",
             "x": 568,
             "y": 174,
             "width": 142,
@@ -34127,6 +35599,7 @@ export const MAPDATA = {
           },
           {
             "id": 12,
+            "type": "bonfire",
             "x": 710,
             "y": 174,
             "width": 142,
@@ -34134,6 +35607,7 @@ export const MAPDATA = {
           },
           {
             "id": 13,
+            "type": "bonfire",
             "x": 852,
             "y": 174,
             "width": 142,
@@ -34141,6 +35615,7 @@ export const MAPDATA = {
           },
           {
             "id": 14,
+            "type": "bonfire",
             "x": 0,
             "y": 348,
             "width": 142,
@@ -34310,6 +35785,42 @@ export const MAPDATA = {
             "id": 0,
             "imageheight": 507,
             "imagewidth": 249,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 125.333,
+                  "y": 481.333
+                },
+                {
+                  "height": 248.485,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 166.667,
+                  "x": 33.3333,
+                  "y": 233.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "building",
             "x": 851,
             "y": 1047,
             "width": 249,
@@ -34319,6 +35830,42 @@ export const MAPDATA = {
             "id": 1,
             "imageheight": 378,
             "imagewidth": 300,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 149.333,
+                  "y": 333.333
+                },
+                {
+                  "height": 145.394,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 276,
+                  "x": 12,
+                  "y": 192.606
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "building",
             "x": 843,
             "y": 635,
             "width": 300,
@@ -34328,6 +35875,42 @@ export const MAPDATA = {
             "id": 2,
             "imageheight": 494,
             "imagewidth": 365,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 177.333,
+                  "y": 440
+                },
+                {
+                  "height": 185.515,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 314,
+                  "x": 28,
+                  "y": 268.485
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "building",
             "x": 486,
             "y": 1047,
             "width": 365,
@@ -34337,6 +35920,53 @@ export const MAPDATA = {
             "id": 3,
             "imageheight": 687,
             "imagewidth": 312,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 161.333,
+                  "y": 638.667
+                },
+                {
+                  "height": 150,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 72,
+                  "x": 206,
+                  "y": 506
+                },
+                {
+                  "height": 158,
+                  "id": 4,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 36,
+                  "x": 34,
+                  "y": 500
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "building",
             "x": 1456,
             "y": 1047,
             "width": 312,
@@ -34346,6 +35976,42 @@ export const MAPDATA = {
             "id": 4,
             "imageheight": 542,
             "imagewidth": 356,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 181.333,
+                  "y": 484
+                },
+                {
+                  "height": 276.667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 256,
+                  "x": 52,
+                  "y": 215.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "building",
             "x": 1100,
             "y": 1047,
             "width": 356,
@@ -34355,6 +36021,31 @@ export const MAPDATA = {
             "id": 5,
             "imageheight": 69,
             "imagewidth": 80,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 41.3333,
+                  "y": 54.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "deco",
             "x": 323,
             "y": 0,
             "width": 80,
@@ -34364,6 +36055,42 @@ export const MAPDATA = {
             "id": 6,
             "imageheight": 188,
             "imagewidth": 137,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 78.6667,
+                  "y": 172.667
+                },
+                {
+                  "height": 42,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 36,
+                  "x": 60,
+                  "y": 137
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "deco",
             "x": 1129,
             "y": 121,
             "width": 137,
@@ -34373,6 +36100,42 @@ export const MAPDATA = {
             "id": 7,
             "imageheight": 187,
             "imagewidth": 52,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 27.3333,
+                  "y": 178
+                },
+                {
+                  "height": 47,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 45,
+                  "x": 2,
+                  "y": 130
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "deco",
             "x": 1077,
             "y": 121,
             "width": 52,
@@ -34382,6 +36145,31 @@ export const MAPDATA = {
             "id": 8,
             "imageheight": 68,
             "imagewidth": 48,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 21.3333,
+                  "y": 56
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "deco",
             "x": 275,
             "y": 0,
             "width": 48,
@@ -34391,6 +36179,42 @@ export const MAPDATA = {
             "id": 9,
             "imageheight": 76,
             "imagewidth": 75,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 34.6667,
+                  "y": 65.3333
+                },
+                {
+                  "height": 19.5,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 25,
+                  "x": 18.5,
+                  "y": 47
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "deco",
             "x": 403,
             "y": 0,
             "width": 75,
@@ -34400,6 +36224,42 @@ export const MAPDATA = {
             "id": 10,
             "imageheight": 209,
             "imagewidth": 75,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 41.3333,
+                  "y": 191.333
+                },
+                {
+                  "height": 41.3333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 38.6667,
+                  "x": 18.6667,
+                  "y": 158.667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "deco",
             "x": 1266,
             "y": 121,
             "width": 75,
@@ -34409,6 +36269,42 @@ export const MAPDATA = {
             "id": 11,
             "imageheight": 84,
             "imagewidth": 192,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 94,
+                  "y": 62
+                },
+                {
+                  "height": 28,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "greenery",
+                  "visible": true,
+                  "width": 157.333,
+                  "x": 16,
+                  "y": 30.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 478,
             "y": 0,
             "width": 192,
@@ -34418,6 +36314,31 @@ export const MAPDATA = {
             "id": 12,
             "imageheight": 108,
             "imagewidth": 157,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 86,
+                  "y": 89.3333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 1108,
             "y": 0,
             "width": 157,
@@ -34427,6 +36348,31 @@ export const MAPDATA = {
             "id": 13,
             "imageheight": 61,
             "imagewidth": 65,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 35.3333,
+                  "y": 50.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 156,
             "y": 0,
             "width": 65,
@@ -34436,6 +36382,31 @@ export const MAPDATA = {
             "id": 14,
             "imageheight": 46,
             "imagewidth": 74,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 46,
+                  "y": 34.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 30,
             "y": 0,
             "width": 74,
@@ -34445,6 +36416,31 @@ export const MAPDATA = {
             "id": 15,
             "imageheight": 140,
             "imagewidth": 160,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 78.6667,
+                  "y": 125.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 197,
             "y": 121,
             "width": 160,
@@ -34454,6 +36450,42 @@ export const MAPDATA = {
             "id": 16,
             "imageheight": 121,
             "imagewidth": 136,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 76,
+                  "y": 112
+                },
+                {
+                  "height": 50.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 50.6667,
+                  "x": 49.3333,
+                  "y": 54.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 1681,
             "y": 0,
             "width": 136,
@@ -34463,6 +36495,31 @@ export const MAPDATA = {
             "id": 17,
             "imageheight": 128,
             "imagewidth": 73,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 37.3333,
+                  "y": 119.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 124,
             "y": 121,
             "width": 73,
@@ -34472,6 +36529,42 @@ export const MAPDATA = {
             "id": 18,
             "imageheight": 84,
             "imagewidth": 125,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 59.3333,
+                  "y": 62.6667
+                },
+                {
+                  "height": 42.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "greenery",
+                  "visible": true,
+                  "width": 89.3333,
+                  "x": 14.6667,
+                  "y": 24
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 670,
             "y": 0,
             "width": 125,
@@ -34481,6 +36574,42 @@ export const MAPDATA = {
             "id": 19,
             "imageheight": 125,
             "imagewidth": 124,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 64,
+                  "y": 117.333
+                },
+                {
+                  "height": 62.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "greenery",
+                  "visible": true,
+                  "width": 84,
+                  "x": 21.3333,
+                  "y": 44
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 0,
             "y": 121,
             "width": 124,
@@ -34490,6 +36619,31 @@ export const MAPDATA = {
             "id": 20,
             "imageheight": 113,
             "imagewidth": 144,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 65.3333,
+                  "y": 110.667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "greenery",
             "x": 1265,
             "y": 0,
             "width": 144,
@@ -34499,6 +36653,64 @@ export const MAPDATA = {
             "id": 21,
             "imageheight": 220,
             "imagewidth": 555,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 274,
+                  "y": 138
+                },
+                {
+                  "height": 87,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "lake",
+                  "visible": true,
+                  "width": 503.25,
+                  "x": 26.75,
+                  "y": 59
+                },
+                {
+                  "height": 42.6666666666667,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "lake",
+                  "visible": true,
+                  "width": 362,
+                  "x": 126,
+                  "y": 33.3333333333333
+                },
+                {
+                  "height": 62.6666666666667,
+                  "id": 4,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "lake",
+                  "visible": true,
+                  "width": 366,
+                  "x": 118,
+                  "y": 123.333333333333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "lake",
             "x": 0,
             "y": 330,
             "width": 555,
@@ -34508,6 +36720,42 @@ export const MAPDATA = {
             "id": 22,
             "imageheight": 479,
             "imagewidth": 210,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 109.333,
+                  "y": 429.333
+                },
+                {
+                  "height": 124.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 166.667,
+                  "x": 22.6667,
+                  "y": 312.667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 276,
             "y": 1047,
             "width": 210,
@@ -34517,6 +36765,42 @@ export const MAPDATA = {
             "id": 23,
             "imageheight": 236,
             "imagewidth": 157,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 77.3333,
+                  "y": 210.667
+                },
+                {
+                  "height": 80,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 126.667,
+                  "x": 14.6667,
+                  "y": 134
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 736,
             "y": 330,
             "width": 157,
@@ -34526,6 +36810,42 @@ export const MAPDATA = {
             "id": 24,
             "imageheight": 276,
             "imagewidth": 227,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 116,
+                  "y": 212
+                },
+                {
+                  "height": 110.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 176,
+                  "x": 17.3333,
+                  "y": 125.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 1309,
             "y": 330,
             "width": 227,
@@ -34535,6 +36855,42 @@ export const MAPDATA = {
             "id": 25,
             "imageheight": 160,
             "imagewidth": 255,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 134.667,
+                  "y": 121.333
+                },
+                {
+                  "height": 82.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 182.667,
+                  "x": 33.3333,
+                  "y": 45.3333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 667,
             "y": 121,
             "width": 255,
@@ -34544,6 +36900,42 @@ export const MAPDATA = {
             "id": 26,
             "imageheight": 161,
             "imagewidth": 155,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 76.6667,
+                  "y": 133.333
+                },
+                {
+                  "height": 85.3333666666667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 134.667,
+                  "x": 10.6667,
+                  "y": 49.3333333333333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 922,
             "y": 121,
             "width": 155,
@@ -34553,6 +36945,42 @@ export const MAPDATA = {
             "id": 27,
             "imageheight": 156,
             "imagewidth": 162,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 78,
+                  "y": 124
+                },
+                {
+                  "height": 85.3333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 119.333,
+                  "x": 19.3333,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 505,
             "y": 121,
             "width": 162,
@@ -34562,6 +36990,42 @@ export const MAPDATA = {
             "id": 28,
             "imageheight": 146,
             "imagewidth": 148,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 74,
+                  "y": 121.333
+                },
+                {
+                  "height": 56.6666333333333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 121.333,
+                  "x": 11.3333,
+                  "y": 56.6666666666667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 357,
             "y": 121,
             "width": 148,
@@ -34571,6 +37035,42 @@ export const MAPDATA = {
             "id": 29,
             "imageheight": 97,
             "imagewidth": 110,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 55.3333,
+                  "y": 78.6667
+                },
+                {
+                  "height": 41.8333333333333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 93.5,
+                  "x": 8,
+                  "y": 35.6666666666667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 795,
             "y": 0,
             "width": 110,
@@ -34580,6 +37080,42 @@ export const MAPDATA = {
             "id": 30,
             "imageheight": 106,
             "imagewidth": 75,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 39.6667,
+                  "y": 93.3333
+                },
+                {
+                  "height": 48.8333333333333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 58.5,
+                  "x": 10,
+                  "y": 43.1666666666667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 1033,
             "y": 0,
             "width": 75,
@@ -34589,6 +37125,42 @@ export const MAPDATA = {
             "id": 31,
             "imageheight": 61,
             "imagewidth": 54,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 26.6667,
+                  "y": 47.6667
+                },
+                {
+                  "height": 34.6666333333333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "wall",
+                  "visible": true,
+                  "width": 39.6667,
+                  "x": 7,
+                  "y": 14.6666666666667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 221,
             "y": 0,
             "width": 54,
@@ -34598,6 +37170,31 @@ export const MAPDATA = {
             "id": 32,
             "imageheight": 35,
             "imagewidth": 30,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 14.3333,
+                  "y": 27.3333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "stone",
             "x": 0,
             "y": 0,
             "width": 30,
@@ -34607,6 +37204,42 @@ export const MAPDATA = {
             "id": 33,
             "imageheight": 451,
             "imagewidth": 276,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 109,
+                  "y": 423
+                },
+                {
+                  "height": 46.6667,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 109.333,
+                  "x": 50.6667,
+                  "y": 390.667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 0,
             "y": 1047,
             "width": 276,
@@ -34616,6 +37249,42 @@ export const MAPDATA = {
             "id": 34,
             "imageheight": 379,
             "imagewidth": 300,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 156,
+                  "y": 349
+                },
+                {
+                  "height": 47.3333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 150,
+                  "x": 78.6667,
+                  "y": 317.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 1143,
             "y": 635,
             "width": 300,
@@ -34625,6 +37294,42 @@ export const MAPDATA = {
             "id": 35,
             "imageheight": 376,
             "imagewidth": 239,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 162,
+                  "y": 343
+                },
+                {
+                  "height": 44,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 56.6667,
+                  "x": 130.667,
+                  "y": 309.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 604,
             "y": 635,
             "width": 239,
@@ -34634,6 +37339,42 @@ export const MAPDATA = {
             "id": 36,
             "imageheight": 274,
             "imagewidth": 192,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 41,
+                  "y": 247
+                },
+                {
+                  "height": 38,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 52,
+                  "x": 13.3333,
+                  "y": 219.333
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 1117,
             "y": 330,
             "width": 192,
@@ -34643,6 +37384,42 @@ export const MAPDATA = {
             "id": 37,
             "imageheight": 224,
             "imagewidth": 181,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 91,
+                  "y": 204
+                },
+                {
+                  "height": 36,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 41.3333,
+                  "x": 68,
+                  "y": 182.667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 555,
             "y": 330,
             "width": 181,
@@ -34652,6 +37429,42 @@ export const MAPDATA = {
             "id": 38,
             "imageheight": 256,
             "imagewidth": 224,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 104,
+                  "y": 226
+                },
+                {
+                  "height": 37.3333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 52.6667,
+                  "x": 74.6667,
+                  "y": 206.667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 893,
             "y": 330,
             "width": 224,
@@ -34661,6 +37474,42 @@ export const MAPDATA = {
             "id": 39,
             "imageheight": 352,
             "imagewidth": 363,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 1,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 314,
+                  "y": 321
+                },
+                {
+                  "height": 57.3333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 73.3333,
+                  "x": 276,
+                  "y": 280
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 241,
             "y": 635,
             "width": 363,
@@ -34670,6 +37519,42 @@ export const MAPDATA = {
             "id": 40,
             "imageheight": 412,
             "imagewidth": 299,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 61.3333,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 120,
+                  "x": 42.6667,
+                  "y": 334.667
+                },
+                {
+                  "height": 0,
+                  "id": 2,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 98,
+                  "y": 378
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 1443,
             "y": 635,
             "width": 299,
@@ -34679,6 +37564,42 @@ export const MAPDATA = {
             "id": 41,
             "imageheight": 305,
             "imagewidth": 294,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 49.3333,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 108,
+                  "x": 85.3333,
+                  "y": 242.667
+                },
+                {
+                  "height": 0,
+                  "id": 2,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 143,
+                  "y": 276
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 1536,
             "y": 330,
             "width": 294,
@@ -34688,6 +37609,42 @@ export const MAPDATA = {
             "id": 42,
             "imageheight": 335,
             "imagewidth": 241,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 61.3333,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 97.3333,
+                  "x": 86.6667,
+                  "y": 260
+                },
+                {
+                  "height": 0,
+                  "id": 3,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 138,
+                  "y": 312
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "tree",
             "x": 0,
             "y": 635,
             "width": 241,
@@ -34697,6 +37654,31 @@ export const MAPDATA = {
             "id": 43,
             "imageheight": 56,
             "imagewidth": 52,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 0,
+                  "id": 2,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 25,
+                  "y": 40.5
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "felledTrees",
             "x": 104,
             "y": 0,
             "width": 52,
@@ -34706,6 +37688,42 @@ export const MAPDATA = {
             "id": 44,
             "imageheight": 115,
             "imagewidth": 272,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 46.6666666666667,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 240.000333333333,
+                  "x": 22.6666666666667,
+                  "y": 44.0000333333333
+                },
+                {
+                  "height": 0,
+                  "id": 2,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "pivot",
+                  "visible": true,
+                  "width": 0,
+                  "x": 137.333,
+                  "y": 86.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "felledTrees",
             "x": 1409,
             "y": 0,
             "width": 272,
@@ -34715,6 +37733,42 @@ export const MAPDATA = {
             "id": 45,
             "imageheight": 99,
             "imagewidth": 128,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 61.3333666666667,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "block",
+                  "visible": true,
+                  "width": 85.333,
+                  "x": 21.3333366666667,
+                  "y": 18.6666666666667
+                },
+                {
+                  "height": 0,
+                  "id": 4,
+                  "name": "",
+                  "point": true,
+                  "rotation": 0,
+                  "type": "",
+                  "visible": true,
+                  "width": 0,
+                  "x": 62.6667,
+                  "y": 74.6667
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "felledTrees",
             "x": 905,
             "y": 0,
             "width": 128,
@@ -34740,12 +37794,10 @@ export const MAPDATA = {
         "tilecount": 156,
         "tiledversion": "1.11.2",
         "tileheight": 64,
-        "tilewidth": 64,
-        "type": "tileset",
-        "version": "1.10",
         "tiles": [
           {
             "id": 0,
+            "type": "water",
             "x": 0,
             "y": 0,
             "width": 64,
@@ -34753,6 +37805,7 @@ export const MAPDATA = {
           },
           {
             "id": 1,
+            "type": "water",
             "x": 64,
             "y": 0,
             "width": 64,
@@ -34760,6 +37813,7 @@ export const MAPDATA = {
           },
           {
             "id": 2,
+            "type": "water",
             "x": 128,
             "y": 0,
             "width": 64,
@@ -34767,6 +37821,7 @@ export const MAPDATA = {
           },
           {
             "id": 3,
+            "type": "water",
             "x": 192,
             "y": 0,
             "width": 64,
@@ -34774,6 +37829,7 @@ export const MAPDATA = {
           },
           {
             "id": 4,
+            "type": "water",
             "x": 256,
             "y": 0,
             "width": 64,
@@ -34781,6 +37837,7 @@ export const MAPDATA = {
           },
           {
             "id": 5,
+            "type": "water",
             "x": 320,
             "y": 0,
             "width": 64,
@@ -34788,6 +37845,7 @@ export const MAPDATA = {
           },
           {
             "id": 6,
+            "type": "sand",
             "x": 384,
             "y": 0,
             "width": 64,
@@ -34795,6 +37853,7 @@ export const MAPDATA = {
           },
           {
             "id": 7,
+            "type": "sand",
             "x": 448,
             "y": 0,
             "width": 64,
@@ -34802,6 +37861,7 @@ export const MAPDATA = {
           },
           {
             "id": 8,
+            "type": "sand",
             "x": 512,
             "y": 0,
             "width": 64,
@@ -34809,6 +37869,7 @@ export const MAPDATA = {
           },
           {
             "id": 9,
+            "type": "sand",
             "x": 576,
             "y": 0,
             "width": 64,
@@ -34816,6 +37877,41 @@ export const MAPDATA = {
           },
           {
             "id": 10,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 640,
             "y": 0,
             "width": 64,
@@ -34823,6 +37919,41 @@ export const MAPDATA = {
           },
           {
             "id": 11,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 704,
             "y": 0,
             "width": 64,
@@ -34830,6 +37961,41 @@ export const MAPDATA = {
           },
           {
             "id": 12,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 768,
             "y": 0,
             "width": 64,
@@ -34837,6 +38003,41 @@ export const MAPDATA = {
           },
           {
             "id": 13,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 48,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 16,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 48
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 832,
             "y": 0,
             "width": 64,
@@ -34844,6 +38045,7 @@ export const MAPDATA = {
           },
           {
             "id": 14,
+            "type": "water",
             "x": 896,
             "y": 0,
             "width": 64,
@@ -34851,6 +38053,7 @@ export const MAPDATA = {
           },
           {
             "id": 15,
+            "type": "water",
             "x": 960,
             "y": 0,
             "width": 64,
@@ -34858,6 +38061,7 @@ export const MAPDATA = {
           },
           {
             "id": 16,
+            "type": "water",
             "x": 1024,
             "y": 0,
             "width": 64,
@@ -34865,6 +38069,7 @@ export const MAPDATA = {
           },
           {
             "id": 17,
+            "type": "water",
             "x": 1088,
             "y": 0,
             "width": 64,
@@ -34872,6 +38077,7 @@ export const MAPDATA = {
           },
           {
             "id": 18,
+            "type": "water",
             "x": 1152,
             "y": 0,
             "width": 64,
@@ -34879,6 +38085,7 @@ export const MAPDATA = {
           },
           {
             "id": 19,
+            "type": "water",
             "x": 1216,
             "y": 0,
             "width": 64,
@@ -34886,6 +38093,7 @@ export const MAPDATA = {
           },
           {
             "id": 20,
+            "type": "deepWater",
             "x": 1280,
             "y": 0,
             "width": 64,
@@ -34893,6 +38101,7 @@ export const MAPDATA = {
           },
           {
             "id": 21,
+            "type": "deepWater",
             "x": 1344,
             "y": 0,
             "width": 64,
@@ -34900,6 +38109,7 @@ export const MAPDATA = {
           },
           {
             "id": 22,
+            "type": "deepWater",
             "x": 1408,
             "y": 0,
             "width": 64,
@@ -34907,6 +38117,7 @@ export const MAPDATA = {
           },
           {
             "id": 23,
+            "type": "deepWater",
             "x": 1472,
             "y": 0,
             "width": 64,
@@ -34914,6 +38125,41 @@ export const MAPDATA = {
           },
           {
             "id": 24,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1536,
             "y": 0,
             "width": 64,
@@ -34921,6 +38167,41 @@ export const MAPDATA = {
           },
           {
             "id": 25,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1600,
             "y": 0,
             "width": 64,
@@ -34928,6 +38209,7 @@ export const MAPDATA = {
           },
           {
             "id": 26,
+            "type": "water",
             "x": 0,
             "y": 64,
             "width": 64,
@@ -34935,6 +38217,7 @@ export const MAPDATA = {
           },
           {
             "id": 27,
+            "type": "sand",
             "x": 64,
             "y": 64,
             "width": 64,
@@ -34942,6 +38225,7 @@ export const MAPDATA = {
           },
           {
             "id": 28,
+            "type": "sand",
             "x": 128,
             "y": 64,
             "width": 64,
@@ -34949,6 +38233,7 @@ export const MAPDATA = {
           },
           {
             "id": 29,
+            "type": "sand",
             "x": 192,
             "y": 64,
             "width": 64,
@@ -34956,6 +38241,7 @@ export const MAPDATA = {
           },
           {
             "id": 30,
+            "type": "sand",
             "x": 256,
             "y": 64,
             "width": 64,
@@ -34963,6 +38249,7 @@ export const MAPDATA = {
           },
           {
             "id": 31,
+            "type": "water",
             "x": 320,
             "y": 64,
             "width": 64,
@@ -34970,6 +38257,7 @@ export const MAPDATA = {
           },
           {
             "id": 32,
+            "type": "sand",
             "x": 384,
             "y": 64,
             "width": 64,
@@ -34977,6 +38265,7 @@ export const MAPDATA = {
           },
           {
             "id": 33,
+            "type": "water",
             "x": 448,
             "y": 64,
             "width": 64,
@@ -34984,6 +38273,7 @@ export const MAPDATA = {
           },
           {
             "id": 34,
+            "type": "water",
             "x": 512,
             "y": 64,
             "width": 64,
@@ -34991,6 +38281,7 @@ export const MAPDATA = {
           },
           {
             "id": 35,
+            "type": "sand",
             "x": 576,
             "y": 64,
             "width": 64,
@@ -34998,6 +38289,41 @@ export const MAPDATA = {
           },
           {
             "id": 36,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 640,
             "y": 64,
             "width": 64,
@@ -35005,6 +38331,41 @@ export const MAPDATA = {
           },
           {
             "id": 37,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 704,
             "y": 64,
             "width": 64,
@@ -35012,6 +38373,41 @@ export const MAPDATA = {
           },
           {
             "id": 38,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 768,
             "y": 64,
             "width": 64,
@@ -35019,6 +38415,41 @@ export const MAPDATA = {
           },
           {
             "id": 39,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 832,
             "y": 64,
             "width": 64,
@@ -35026,6 +38457,7 @@ export const MAPDATA = {
           },
           {
             "id": 40,
+            "type": "water",
             "x": 896,
             "y": 64,
             "width": 64,
@@ -35033,6 +38465,7 @@ export const MAPDATA = {
           },
           {
             "id": 41,
+            "type": "deepWater",
             "x": 960,
             "y": 64,
             "width": 64,
@@ -35040,6 +38473,7 @@ export const MAPDATA = {
           },
           {
             "id": 42,
+            "type": "deepWater",
             "x": 1024,
             "y": 64,
             "width": 64,
@@ -35047,6 +38481,7 @@ export const MAPDATA = {
           },
           {
             "id": 43,
+            "type": "deepWater",
             "x": 1088,
             "y": 64,
             "width": 64,
@@ -35054,6 +38489,7 @@ export const MAPDATA = {
           },
           {
             "id": 44,
+            "type": "deepWater",
             "x": 1152,
             "y": 64,
             "width": 64,
@@ -35061,6 +38497,7 @@ export const MAPDATA = {
           },
           {
             "id": 45,
+            "type": "water",
             "x": 1216,
             "y": 64,
             "width": 64,
@@ -35068,6 +38505,7 @@ export const MAPDATA = {
           },
           {
             "id": 46,
+            "type": "deepWater",
             "x": 1280,
             "y": 64,
             "width": 64,
@@ -35075,6 +38513,7 @@ export const MAPDATA = {
           },
           {
             "id": 47,
+            "type": "water",
             "x": 1344,
             "y": 64,
             "width": 64,
@@ -35082,6 +38521,7 @@ export const MAPDATA = {
           },
           {
             "id": 48,
+            "type": "water",
             "x": 1408,
             "y": 64,
             "width": 64,
@@ -35089,6 +38529,7 @@ export const MAPDATA = {
           },
           {
             "id": 49,
+            "type": "deepWater",
             "x": 1472,
             "y": 64,
             "width": 64,
@@ -35096,6 +38537,41 @@ export const MAPDATA = {
           },
           {
             "id": 50,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1536,
             "y": 64,
             "width": 64,
@@ -35103,6 +38579,41 @@ export const MAPDATA = {
           },
           {
             "id": 51,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1600,
             "y": 64,
             "width": 64,
@@ -35110,6 +38621,7 @@ export const MAPDATA = {
           },
           {
             "id": 52,
+            "type": "water",
             "x": 0,
             "y": 128,
             "width": 64,
@@ -35117,6 +38629,7 @@ export const MAPDATA = {
           },
           {
             "id": 53,
+            "type": "sand",
             "x": 64,
             "y": 128,
             "width": 64,
@@ -35124,6 +38637,7 @@ export const MAPDATA = {
           },
           {
             "id": 54,
+            "type": "sand",
             "x": 128,
             "y": 128,
             "width": 64,
@@ -35131,6 +38645,7 @@ export const MAPDATA = {
           },
           {
             "id": 55,
+            "type": "sand",
             "x": 192,
             "y": 128,
             "width": 64,
@@ -35138,6 +38653,7 @@ export const MAPDATA = {
           },
           {
             "id": 56,
+            "type": "sand",
             "x": 256,
             "y": 128,
             "width": 64,
@@ -35145,6 +38661,7 @@ export const MAPDATA = {
           },
           {
             "id": 57,
+            "type": "water",
             "x": 320,
             "y": 128,
             "width": 64,
@@ -35152,6 +38669,7 @@ export const MAPDATA = {
           },
           {
             "id": 58,
+            "type": "sand",
             "x": 384,
             "y": 128,
             "width": 64,
@@ -35159,6 +38677,7 @@ export const MAPDATA = {
           },
           {
             "id": 59,
+            "type": "water",
             "x": 448,
             "y": 128,
             "width": 64,
@@ -35166,6 +38685,7 @@ export const MAPDATA = {
           },
           {
             "id": 60,
+            "type": "water",
             "x": 512,
             "y": 128,
             "width": 64,
@@ -35173,6 +38693,7 @@ export const MAPDATA = {
           },
           {
             "id": 61,
+            "type": "sand",
             "x": 576,
             "y": 128,
             "width": 64,
@@ -35180,6 +38701,41 @@ export const MAPDATA = {
           },
           {
             "id": 62,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 640,
             "y": 128,
             "width": 64,
@@ -35187,6 +38743,41 @@ export const MAPDATA = {
           },
           {
             "id": 63,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 704,
             "y": 128,
             "width": 64,
@@ -35194,6 +38785,41 @@ export const MAPDATA = {
           },
           {
             "id": 64,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 48,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 768,
             "y": 128,
             "width": 64,
@@ -35201,6 +38827,41 @@ export const MAPDATA = {
           },
           {
             "id": 65,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 832,
             "y": 128,
             "width": 64,
@@ -35208,6 +38869,7 @@ export const MAPDATA = {
           },
           {
             "id": 66,
+            "type": "water",
             "x": 896,
             "y": 128,
             "width": 64,
@@ -35215,6 +38877,7 @@ export const MAPDATA = {
           },
           {
             "id": 67,
+            "type": "deepWater",
             "x": 960,
             "y": 128,
             "width": 64,
@@ -35222,6 +38885,7 @@ export const MAPDATA = {
           },
           {
             "id": 68,
+            "type": "deepWater",
             "x": 1024,
             "y": 128,
             "width": 64,
@@ -35229,6 +38893,7 @@ export const MAPDATA = {
           },
           {
             "id": 69,
+            "type": "deepWater",
             "x": 1088,
             "y": 128,
             "width": 64,
@@ -35236,6 +38901,7 @@ export const MAPDATA = {
           },
           {
             "id": 70,
+            "type": "deepWater",
             "x": 1152,
             "y": 128,
             "width": 64,
@@ -35243,6 +38909,7 @@ export const MAPDATA = {
           },
           {
             "id": 71,
+            "type": "water",
             "x": 1216,
             "y": 128,
             "width": 64,
@@ -35250,6 +38917,7 @@ export const MAPDATA = {
           },
           {
             "id": 72,
+            "type": "deepWater",
             "x": 1280,
             "y": 128,
             "width": 64,
@@ -35257,6 +38925,7 @@ export const MAPDATA = {
           },
           {
             "id": 73,
+            "type": "water",
             "x": 1344,
             "y": 128,
             "width": 64,
@@ -35264,6 +38933,7 @@ export const MAPDATA = {
           },
           {
             "id": 74,
+            "type": "water",
             "x": 1408,
             "y": 128,
             "width": 64,
@@ -35271,6 +38941,7 @@ export const MAPDATA = {
           },
           {
             "id": 75,
+            "type": "deepWater",
             "x": 1472,
             "y": 128,
             "width": 64,
@@ -35278,6 +38949,41 @@ export const MAPDATA = {
           },
           {
             "id": 76,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1536,
             "y": 128,
             "width": 64,
@@ -35285,6 +38991,41 @@ export const MAPDATA = {
           },
           {
             "id": 77,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1600,
             "y": 128,
             "width": 64,
@@ -35292,6 +39033,7 @@ export const MAPDATA = {
           },
           {
             "id": 78,
+            "type": "water",
             "x": 0,
             "y": 192,
             "width": 64,
@@ -35299,6 +39041,7 @@ export const MAPDATA = {
           },
           {
             "id": 79,
+            "type": "sand",
             "x": 64,
             "y": 192,
             "width": 64,
@@ -35306,6 +39049,7 @@ export const MAPDATA = {
           },
           {
             "id": 80,
+            "type": "sand",
             "x": 128,
             "y": 192,
             "width": 64,
@@ -35313,6 +39057,7 @@ export const MAPDATA = {
           },
           {
             "id": 81,
+            "type": "sand",
             "x": 192,
             "y": 192,
             "width": 64,
@@ -35320,6 +39065,7 @@ export const MAPDATA = {
           },
           {
             "id": 82,
+            "type": "sand",
             "x": 256,
             "y": 192,
             "width": 64,
@@ -35327,6 +39073,7 @@ export const MAPDATA = {
           },
           {
             "id": 83,
+            "type": "water",
             "x": 320,
             "y": 192,
             "width": 64,
@@ -35334,6 +39081,7 @@ export const MAPDATA = {
           },
           {
             "id": 84,
+            "type": "sand",
             "x": 384,
             "y": 192,
             "width": 64,
@@ -35341,6 +39089,7 @@ export const MAPDATA = {
           },
           {
             "id": 85,
+            "type": "sand",
             "x": 448,
             "y": 192,
             "width": 64,
@@ -35348,6 +39097,7 @@ export const MAPDATA = {
           },
           {
             "id": 86,
+            "type": "sand",
             "x": 512,
             "y": 192,
             "width": 64,
@@ -35355,6 +39105,7 @@ export const MAPDATA = {
           },
           {
             "id": 87,
+            "type": "sand",
             "x": 576,
             "y": 192,
             "width": 64,
@@ -35362,6 +39113,41 @@ export const MAPDATA = {
           },
           {
             "id": 88,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 3,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 3,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 4,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 640,
             "y": 192,
             "width": 64,
@@ -35369,6 +39155,41 @@ export const MAPDATA = {
           },
           {
             "id": 89,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 704,
             "y": 192,
             "width": 64,
@@ -35376,6 +39197,41 @@ export const MAPDATA = {
           },
           {
             "id": 90,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 768,
             "y": 192,
             "width": 64,
@@ -35383,6 +39239,41 @@ export const MAPDATA = {
           },
           {
             "id": 91,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 832,
             "y": 192,
             "width": 64,
@@ -35390,6 +39281,7 @@ export const MAPDATA = {
           },
           {
             "id": 92,
+            "type": "water",
             "x": 896,
             "y": 192,
             "width": 64,
@@ -35397,6 +39289,7 @@ export const MAPDATA = {
           },
           {
             "id": 93,
+            "type": "deepWater",
             "x": 960,
             "y": 192,
             "width": 64,
@@ -35404,6 +39297,7 @@ export const MAPDATA = {
           },
           {
             "id": 94,
+            "type": "deepWater",
             "x": 1024,
             "y": 192,
             "width": 64,
@@ -35411,6 +39305,7 @@ export const MAPDATA = {
           },
           {
             "id": 95,
+            "type": "deepWater",
             "x": 1088,
             "y": 192,
             "width": 64,
@@ -35418,6 +39313,7 @@ export const MAPDATA = {
           },
           {
             "id": 96,
+            "type": "deepWater",
             "x": 1152,
             "y": 192,
             "width": 64,
@@ -35425,6 +39321,7 @@ export const MAPDATA = {
           },
           {
             "id": 97,
+            "type": "water",
             "x": 1216,
             "y": 192,
             "width": 64,
@@ -35432,6 +39329,7 @@ export const MAPDATA = {
           },
           {
             "id": 98,
+            "type": "deepWater",
             "x": 1280,
             "y": 192,
             "width": 64,
@@ -35439,6 +39337,7 @@ export const MAPDATA = {
           },
           {
             "id": 99,
+            "type": "deepWater",
             "x": 1344,
             "y": 192,
             "width": 64,
@@ -35446,6 +39345,7 @@ export const MAPDATA = {
           },
           {
             "id": 100,
+            "type": "deepWater",
             "x": 1408,
             "y": 192,
             "width": 64,
@@ -35453,6 +39353,7 @@ export const MAPDATA = {
           },
           {
             "id": 101,
+            "type": "deepWater",
             "x": 1472,
             "y": 192,
             "width": 64,
@@ -35460,6 +39361,41 @@ export const MAPDATA = {
           },
           {
             "id": 102,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1536,
             "y": 192,
             "width": 64,
@@ -35467,6 +39403,41 @@ export const MAPDATA = {
           },
           {
             "id": 103,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 1600,
             "y": 192,
             "width": 64,
@@ -35474,6 +39445,7 @@ export const MAPDATA = {
           },
           {
             "id": 104,
+            "type": "water",
             "x": 0,
             "y": 256,
             "width": 64,
@@ -35481,6 +39453,7 @@ export const MAPDATA = {
           },
           {
             "id": 105,
+            "type": "sand",
             "x": 64,
             "y": 256,
             "width": 64,
@@ -35488,6 +39461,7 @@ export const MAPDATA = {
           },
           {
             "id": 106,
+            "type": "sand",
             "x": 128,
             "y": 256,
             "width": 64,
@@ -35495,6 +39469,7 @@ export const MAPDATA = {
           },
           {
             "id": 107,
+            "type": "sand",
             "x": 192,
             "y": 256,
             "width": 64,
@@ -35502,6 +39477,7 @@ export const MAPDATA = {
           },
           {
             "id": 108,
+            "type": "sand",
             "x": 256,
             "y": 256,
             "width": 64,
@@ -35509,6 +39485,7 @@ export const MAPDATA = {
           },
           {
             "id": 109,
+            "type": "water",
             "x": 320,
             "y": 256,
             "width": 64,
@@ -35516,6 +39493,7 @@ export const MAPDATA = {
           },
           {
             "id": 110,
+            "type": "water",
             "x": 384,
             "y": 256,
             "width": 64,
@@ -35523,6 +39501,7 @@ export const MAPDATA = {
           },
           {
             "id": 111,
+            "type": "water",
             "x": 448,
             "y": 256,
             "width": 64,
@@ -35530,6 +39509,7 @@ export const MAPDATA = {
           },
           {
             "id": 112,
+            "type": "water",
             "x": 512,
             "y": 256,
             "width": 64,
@@ -35537,6 +39517,7 @@ export const MAPDATA = {
           },
           {
             "id": 113,
+            "type": "water",
             "x": 576,
             "y": 256,
             "width": 64,
@@ -35544,6 +39525,41 @@ export const MAPDATA = {
           },
           {
             "id": 114,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 640,
             "y": 256,
             "width": 64,
@@ -35551,6 +39567,41 @@ export const MAPDATA = {
           },
           {
             "id": 115,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 704,
             "y": 256,
             "width": 64,
@@ -35558,6 +39609,7 @@ export const MAPDATA = {
           },
           {
             "id": 116,
+            "type": "deepWater",
             "x": 768,
             "y": 256,
             "width": 64,
@@ -35565,6 +39617,7 @@ export const MAPDATA = {
           },
           {
             "id": 117,
+            "type": "deepWater",
             "x": 832,
             "y": 256,
             "width": 64,
@@ -35572,6 +39625,7 @@ export const MAPDATA = {
           },
           {
             "id": 118,
+            "type": "water",
             "x": 896,
             "y": 256,
             "width": 64,
@@ -35579,6 +39633,7 @@ export const MAPDATA = {
           },
           {
             "id": 119,
+            "type": "deepWater",
             "x": 960,
             "y": 256,
             "width": 64,
@@ -35586,6 +39641,7 @@ export const MAPDATA = {
           },
           {
             "id": 120,
+            "type": "deepWater",
             "x": 1024,
             "y": 256,
             "width": 64,
@@ -35593,6 +39649,7 @@ export const MAPDATA = {
           },
           {
             "id": 121,
+            "type": "deepWater",
             "x": 1088,
             "y": 256,
             "width": 64,
@@ -35600,6 +39657,7 @@ export const MAPDATA = {
           },
           {
             "id": 122,
+            "type": "deepWater",
             "x": 1152,
             "y": 256,
             "width": 64,
@@ -35607,6 +39665,7 @@ export const MAPDATA = {
           },
           {
             "id": 123,
+            "type": "water",
             "x": 1216,
             "y": 256,
             "width": 64,
@@ -35614,6 +39673,7 @@ export const MAPDATA = {
           },
           {
             "id": 124,
+            "type": "deepWater",
             "x": 1280,
             "y": 256,
             "width": 64,
@@ -35621,6 +39681,7 @@ export const MAPDATA = {
           },
           {
             "id": 125,
+            "type": "deepWater",
             "x": 1344,
             "y": 256,
             "width": 64,
@@ -35628,6 +39689,7 @@ export const MAPDATA = {
           },
           {
             "id": 126,
+            "type": "deepWater",
             "x": 1408,
             "y": 256,
             "width": 64,
@@ -35635,6 +39697,41 @@ export const MAPDATA = {
           },
           {
             "id": 127,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "breakWater",
             "x": 1472,
             "y": 256,
             "width": 64,
@@ -35642,6 +39739,41 @@ export const MAPDATA = {
           },
           {
             "id": 128,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 32,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 64,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "breakWater",
             "x": 1536,
             "y": 256,
             "width": 64,
@@ -35649,6 +39781,7 @@ export const MAPDATA = {
           },
           {
             "id": 129,
+            "type": "deepWater",
             "x": 1600,
             "y": 256,
             "width": 64,
@@ -35656,6 +39789,7 @@ export const MAPDATA = {
           },
           {
             "id": 130,
+            "type": "water",
             "x": 0,
             "y": 320,
             "width": 64,
@@ -35663,6 +39797,7 @@ export const MAPDATA = {
           },
           {
             "id": 131,
+            "type": "water",
             "x": 64,
             "y": 320,
             "width": 64,
@@ -35670,6 +39805,7 @@ export const MAPDATA = {
           },
           {
             "id": 132,
+            "type": "water",
             "x": 128,
             "y": 320,
             "width": 64,
@@ -35677,6 +39813,7 @@ export const MAPDATA = {
           },
           {
             "id": 133,
+            "type": "water",
             "x": 192,
             "y": 320,
             "width": 64,
@@ -35684,6 +39821,7 @@ export const MAPDATA = {
           },
           {
             "id": 134,
+            "type": "water",
             "x": 256,
             "y": 320,
             "width": 64,
@@ -35691,6 +39829,7 @@ export const MAPDATA = {
           },
           {
             "id": 135,
+            "type": "water",
             "x": 320,
             "y": 320,
             "width": 64,
@@ -35698,6 +39837,7 @@ export const MAPDATA = {
           },
           {
             "id": 136,
+            "type": "water",
             "x": 384,
             "y": 320,
             "width": 64,
@@ -35705,6 +39845,7 @@ export const MAPDATA = {
           },
           {
             "id": 137,
+            "type": "water",
             "x": 448,
             "y": 320,
             "width": 64,
@@ -35712,6 +39853,7 @@ export const MAPDATA = {
           },
           {
             "id": 138,
+            "type": "water",
             "x": 512,
             "y": 320,
             "width": 64,
@@ -35719,6 +39861,7 @@ export const MAPDATA = {
           },
           {
             "id": 139,
+            "type": "water",
             "x": 576,
             "y": 320,
             "width": 64,
@@ -35726,6 +39869,41 @@ export const MAPDATA = {
           },
           {
             "id": 140,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 640,
             "y": 320,
             "width": 64,
@@ -35733,6 +39911,41 @@ export const MAPDATA = {
           },
           {
             "id": 141,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                },
+                {
+                  "height": 32,
+                  "id": 2,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "water",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 32
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "buoy",
             "x": 704,
             "y": 320,
             "width": 64,
@@ -35740,6 +39953,7 @@ export const MAPDATA = {
           },
           {
             "id": 142,
+            "type": "deepWater",
             "x": 768,
             "y": 320,
             "width": 64,
@@ -35747,6 +39961,7 @@ export const MAPDATA = {
           },
           {
             "id": 143,
+            "type": "deepWater",
             "x": 832,
             "y": 320,
             "width": 64,
@@ -35754,6 +39969,7 @@ export const MAPDATA = {
           },
           {
             "id": 144,
+            "type": "water",
             "x": 896,
             "y": 320,
             "width": 64,
@@ -35761,6 +39977,7 @@ export const MAPDATA = {
           },
           {
             "id": 145,
+            "type": "water",
             "x": 960,
             "y": 320,
             "width": 64,
@@ -35768,6 +39985,7 @@ export const MAPDATA = {
           },
           {
             "id": 146,
+            "type": "water",
             "x": 1024,
             "y": 320,
             "width": 64,
@@ -35775,6 +39993,7 @@ export const MAPDATA = {
           },
           {
             "id": 147,
+            "type": "water",
             "x": 1088,
             "y": 320,
             "width": 64,
@@ -35782,6 +40001,7 @@ export const MAPDATA = {
           },
           {
             "id": 148,
+            "type": "water",
             "x": 1152,
             "y": 320,
             "width": 64,
@@ -35789,6 +40009,7 @@ export const MAPDATA = {
           },
           {
             "id": 149,
+            "type": "water",
             "x": 1216,
             "y": 320,
             "width": 64,
@@ -35796,6 +40017,7 @@ export const MAPDATA = {
           },
           {
             "id": 150,
+            "type": "deepWater",
             "x": 1280,
             "y": 320,
             "width": 64,
@@ -35803,6 +40025,7 @@ export const MAPDATA = {
           },
           {
             "id": 151,
+            "type": "deepWater",
             "x": 1344,
             "y": 320,
             "width": 64,
@@ -35810,6 +40033,30 @@ export const MAPDATA = {
           },
           {
             "id": 152,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 48,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "breakWater",
             "x": 1408,
             "y": 320,
             "width": 64,
@@ -35817,6 +40064,7 @@ export const MAPDATA = {
           },
           {
             "id": 153,
+            "type": "breakWater",
             "x": 1472,
             "y": 320,
             "width": 64,
@@ -35824,6 +40072,7 @@ export const MAPDATA = {
           },
           {
             "id": 154,
+            "type": "breakWater",
             "x": 1536,
             "y": 320,
             "width": 64,
@@ -35831,12 +40080,39 @@ export const MAPDATA = {
           },
           {
             "id": 155,
+            "objectgroup": {
+              "draworder": "index",
+              "id": 2,
+              "name": "",
+              "objects": [
+                {
+                  "height": 64,
+                  "id": 1,
+                  "name": "",
+                  "rotation": 0,
+                  "type": "deepWater",
+                  "visible": true,
+                  "width": 32,
+                  "x": 32,
+                  "y": 0
+                }
+              ],
+              "opacity": 1,
+              "type": "objectgroup",
+              "visible": true,
+              "x": 0,
+              "y": 0
+            },
+            "type": "breakWater",
             "x": 1600,
             "y": 320,
             "width": 64,
             "height": 64
           }
-        ]
+        ],
+        "tilewidth": 64,
+        "type": "tileset",
+        "version": "1.10"
       }
     ],
     "tilewidth": 64,

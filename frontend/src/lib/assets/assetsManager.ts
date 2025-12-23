@@ -1,3 +1,4 @@
+//src/lib/assets/assetsManager.ts
 'use client'
 
 import { Assets } from "pixi.js";
