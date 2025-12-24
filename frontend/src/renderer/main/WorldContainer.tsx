@@ -6,17 +6,20 @@ import { Alias } from "@/lib/assets/assetsDefinitions";
 import { AssetMain } from "@/lib/assets/assetsManager";
 import { MAPDATA } from "@/assets/map/MAPDATA";
 import { useApplication } from "@pixi/react";
-import { useCallback, useEffect, useState, useMemo } from "react"; 
-import { Rectangle, Texture } from "pixi.js";
+import { useCallback, useEffect, useState, useMemo, useRef } from "react"; 
+import { Rectangle, Texture, Graphics, Container as PixiContainer } from "pixi.js";
 import { useCamera } from "@/hooks/useCamera";
 import { useHeroMovement } from "@/hooks/useHeroMovement";
 
 const WorldContainer = () => {
   const { app, isInitialised } = useApplication();
   const [screenSize, setScreenSize] = useState({ width: app.screen.width, height: app.screen.height });
+  
+  // 💙 리액트 컴포넌트 에러를 피하기 위해 순수 픽시 인스턴스를 담을 ref
+  const overlayRef = useRef<PixiContainer>(null);
 
   const spawnObj = MAPDATA.worldmap.layers[0].objects[0];
-  const { pos: heroPos } = useHeroMovement(spawnObj.x, spawnObj.y);
+  const { pos: heroPos, lastHorizontal } = useHeroMovement(spawnObj.x, spawnObj.y); 
   const { getCameraTransform } = useCamera(7.5);
 
   const handleResize = useCallback(() => {
@@ -29,6 +32,32 @@ const WorldContainer = () => {
     return () => { app.renderer.off('resize', handleResize); };
   }, [app.renderer, handleResize, isInitialised]); 
 
+  // 💙 픽시 엔진 레벨에서 직접 드로잉 (리액트 태그 에러 방지)
+  useEffect(() => {
+    if (!isInitialised || !overlayRef.current) return;
+
+    const container = overlayRef.current;
+    container.removeChildren(); // 기존에 그려진 거 싹 지움
+
+    const g = new Graphics();
+    const w = WORLD.WIDTH;
+    const h = WORLD.HEIGHT;
+    const steps = 90; // 테두리 블러 두께임
+
+    // 맵 테두리에 그라데이션 노가다 작업
+    for (let i = 0; i < steps; i++) {
+      const alpha = (1 - i / steps) * 0.5;
+      g.rect(i, i, w - i * 2, h - i * 2)
+        .stroke({ color: 0x010101, width: 5, alpha: alpha });
+    }
+
+    container.addChild(g);
+    
+    return () => {
+      g.destroy();
+    };
+  }, [isInitialised]);
+
   const { cameraScale, cameraX, cameraY } = useMemo(() => {
     const transform = getCameraTransform(heroPos.x, heroPos.y, screenSize.width, screenSize.height, WORLD.WIDTH, WORLD.HEIGHT);
     return { cameraScale: transform.scale, cameraX: transform.x, cameraY: transform.y };
@@ -36,7 +65,7 @@ const WorldContainer = () => {
 
   const currentMap = MAPDATA.worldmap;
 
-  // 1. 지형 레이어 (zIndex: 0)
+  // 1. 지형 레이어
   const groundLayers = useMemo(() => {
     const elements: React.ReactNode[] = [];
     const { tilesets, layers, tilewidth, tileheight, width: mapWidth } = currentMap;
@@ -69,7 +98,7 @@ const WorldContainer = () => {
     return elements;
   }, [currentMap]);
 
-  // 2. 오브젝트 레이어 (모닥불 애니메이션 + 시스루 로직)
+  // 2. 오브젝트 레이어
   const objectLayerElements = useMemo(() => {
     const objectLayer = currentMap.layers[4];
     if (!objectLayer || !('objects' in objectLayer)) return null;
@@ -91,7 +120,6 @@ const WorldContainer = () => {
       const isBonfire = tilesetName.includes('bonfire');
       const isLake = tilesetName.includes('lake');
 
-      // 💙 모닥불 애니메이션 (레퍼런스 속성 적용: textures, autoPlay, loop)
       if (isBonfire && tileset.tiles) {
         const frames = tileset.tiles.map(t => new Texture({
           source: atlasTexture.source,
@@ -107,16 +135,14 @@ const WorldContainer = () => {
             animationSpeed={0.1}
             x={obj.x}
             y={obj.y - (obj.height || 0)}
-            zIndex={0} // 💙 모닥불은 캐릭터가 밟아야 하니까 바닥에 깔기!
+            zIndex={0}
           />
         );
       }
 
-      // 일반 오브젝트 (나무 등) & 호수
       const localGid = obj.gid - tileset.firstgid;
       const tileInfo = tileset.tiles?.find(t => t.id === localGid);
       if (tileInfo) {
-        // 💙 모닥불과 호수는 가려짐 판정에서 제외!
         const isHiding = !isLake && !isBonfire && 
                         heroPos.x > obj.x && heroPos.x < obj.x + (obj.width || 0) && 
                         heroHeadY > (obj.y - (obj.height || 0)) && heroHeadY < obj.y && 
@@ -130,7 +156,7 @@ const WorldContainer = () => {
             y={obj.y - (obj.height || 0)} 
             width={obj.width || tileInfo.width}
             height={obj.height || tileInfo.height}
-            zIndex={isLake || isBonfire ? 0 : obj.y} // 💙 바닥 고정 오브젝트
+            zIndex={isLake || isBonfire ? 0 : obj.y}
             alpha={isHiding ? 0.4 : 1.0} 
           />
         );
@@ -150,14 +176,22 @@ const WorldContainer = () => {
     >
       {groundLayers}
       {objectLayerElements}
+      
       <pixiSprite 
         texture={AssetMain.get(Alias.hero)} 
         anchor={{ x: 0.5, y: 1 }} 
         x={heroPos.x} 
         y={heroPos.y}
         zIndex={heroPos.y} 
-        scale={WORLD.HERO_SCALE} 
+        scale={{ 
+          x: lastHorizontal === 'left' ? -WORLD.HERO_SCALE : WORLD.HERO_SCALE, 
+          y: WORLD.HERO_SCALE 
+        }} 
       />
+
+      {/* 💙 리액트 태그 대신 ref를 활용한 픽시 컨테이너 배치 */}
+      {/* 여기에 직접 Graphics를 박아서 에러를 원천 차단함 */}
+      <pixiContainer ref={overlayRef} zIndex={1000000} />
     </pixiContainer>
   );
 };

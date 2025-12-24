@@ -51,7 +51,7 @@ const GameCanvas = () => {
     loading ? 
       <GameLoading />
     :
-      <Application autoDensity={true} resizeTo={window} ref={parentRef} backgroundColor={0x241542}>
+      <Application autoDensity={true} resizeTo={window} ref={parentRef} backgroundColor={0x000000}>
         <WorldContainer /> 
       </Application>
   );
